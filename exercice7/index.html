@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Exercice7</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand bg-dark navbar-dark">
+        <a href="#" class="navbar-brand">Homepage</a>
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" role="button"  aria-expanded="false">Team</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Vincent</a></li>
+                    <li><a class="dropdown-item" href="#">Béatrice</a></li>
+                    <li><a class="dropdown-item" href="#">Rosita</a></li>
+                </ul>
+                <li class="nav-item">
+                    <a href="#" class="nav-link disabled">Contact</a>
+                </li>
+            </li>
+        </ul>
+    </nav>
+
+    <div class=" container alert alert-danger " role="alert">
+        une erreur serveur est survenue. Veuillez rafraîchir la page ou réessayer plus tard.
+    </div>
+
+    <div class="container mb-4">
+        <div class="row bg-secondary justify-content-between p-4"  style="height: 300px;">
+            <h1 class="display-3 font-weight-bolder">hi! My name is!</h1>
+            <div class="card bg-secondary" style="width: 12rem; height:12rem;">
+                <img src="../img/eminem.jpg" class="img-fluid rounded-circle" alt="Responsive image" style="height: 200px;">
+                <div class="card-body">
+                    <h3 class="card-text ">Slim shady</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-3 mb-3">
+        <div class="row justify-content-center">
+            <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#MOdal">
+            signup newsletter
+            </button>
+        </div></div>
+        
+    
+    <div class="modal fade" id="MOdal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel">Newsletter</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="col">
+                        <label class="sr-only" for="mdp">mail</label>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">Email</div>
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="ex : lala@land.com">
+                        </div>
+                        <button type="submit" class="btn btn-primary">S'abonner</button>
+                    </div>  
+                </div>
+                
+            </div>
+        </div>
+    </div>
+      
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h2>Planification</h2>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus aspernatur 
+                    corporis molestias. Iusto hic temporibus eveniet nam minima ab tenetur fugiat dolore 
+                    distinctio quos molestiae, deserunt voluptate minus vero!
+                </div>
+            </div>
+            <div class="col-4">
+                <h2>Action</h2>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus aspernatur 
+                    corporis molestias. Iusto hic temporibus eveniet nam minima ab tenetur fugiat dolore 
+                    distinctio quos molestiae, deserunt voluptate minus vero!
+                </div>
+            </div>
+            <div class="col-4">
+                <h2>Analysis</h2>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est temporibus aspernatur 
+                    corporis molestias. Iusto hic temporibus eveniet nam minima ab tenetur fugiat dolore 
+                    distinctio quos molestiae, deserunt voluptate minus vero!
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
